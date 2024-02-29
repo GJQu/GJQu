@@ -2,7 +2,7 @@
 ```
 class MyBio:
     def __init__(self):
-        self.name = "Gavin J. Qu"
+        self.name = "Gavin Qu"
         self.role = "Data Analyst"
         self.location = " "
         self.languages = ["Python", "JavaScript", "SQL", "R", ]
