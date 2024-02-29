@@ -1,16 +1,29 @@
 ### Hi there 👋
 
-<!--
-**GJQu/GJQu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+class MyBio:
+    def __init__(self):
+        self.name = "Gavin J. Qu"
+        self.role = "Data Analyst"
+        self.location = " "
+        self.languages = ["Python", "JavaScript", "SQL", "R", ]
+        self.interests = ["Machine Learning", "A/B Testing", "Web Dev", "Open Source"]
 
-Here are some ideas to get you started:
+    def current_project(self):
+        return "Working on a book recommendation system for a community-based book exchange"
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    def contact(self):
+        return {
+            "LinkedIn": "linkedin.com/in/gavinqu/",
+            "Email": "gavin.qu@hotmail.com",
+        }
+
+    def about_me(self):
+        return """
+        Passionate and creative data science student with diverse background in economics and social sciences. 
+        """
+
+bio = MyBio()
+print(bio.about_me())
+print("Current Project:", bio.current_project())
+print("Contact Info:", bio.contact())
+
