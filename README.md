@@ -3,9 +3,9 @@
 class MyBio:
     def __init__(self):
         self.name = "Gavin Qu"
-        self.role = "Data Creative"
-        self.location = " "
-        self.languages = ["Python", "JavaScript", "SQL", "R", ]
+        self.role = "Data Science Student at USF"
+        self.location = "San Francisco"
+        self.languages = ["Python", "C", "SQL", "R", "Javascript"]
         self.interests = ["Machine Learning", "A/B Testing", "Web Dev", "Open Source"]
 
     def current_project(self):
@@ -19,7 +19,7 @@ class MyBio:
 
     def about_me(self):
         return """
-        Passionate and creative data science student with diverse background in economics and social sciences. 
+        Passionate and creative data science student with a diverse background in economics and statistics. 
         """
 
 bio = MyBio()
