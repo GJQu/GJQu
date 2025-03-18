@@ -3,10 +3,10 @@
 class MyBio:
     def __init__(self):
         self.name = "Gavin Qu"
-        self.role = ["Data Science Creative", "Economist", "Pilot"]
-        self.location = ["San Francisco", "Seattle"]
+        self.role = ["Data Creative", "Investment Management", "Pilot"]
+        self.location = ["Seattle"]
         self.languages = ["Python", "C", "SQL", "R", "Javascript"]
-        self.interests = ["Machine Learning", "A/B Testing", "Web Dev", "Open Source"]
+        self.interests = ["Machine Learning", "A/B Testing", "Open Source"]
 
     def current_project(self):
         return "Working on a book recommendation system for a community-based book exchange"
