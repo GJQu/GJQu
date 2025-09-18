@@ -3,23 +3,22 @@
 class MyBio:
     def __init__(self):
         self.name = "Gavin Qu"
-        self.role = ["Data Creative", "Investment Management", "Pilot"]
+        self.role = ["Data Creative", "Finance", "Curiosity-driven"]
         self.location = ["Seattle"]
-        self.languages = ["Python", "C", "SQL", "R", "Javascript"]
-        self.interests = ["Machine Learning", "A/B Testing", "Open Source"]
+        self.languages = ["Python", "C", "SQL", "R"]
+        self.interests = ["AI/ML", "Causal Inference", "Open Source"]
 
     def current_project(self):
         return "Working on a book recommendation system for a community-based book exchange"
 
     def contact(self):
         return {
-            "LinkedIn": "linkedin.com/in/gavinqu/",
-            "Email": "gavin.qu@hotmail.com",
+            "LinkedIn": "linkedin.com/in/gavinqu/"
         }
 
     def about_me(self):
         return """
-        Passionate and creative data science student with a diverse background in economics and statistics. 
+            Outside of work, you'll often find me hiking, climbing, skiing and reading Sci-fi in some 3rd wave cafe. 
         """
 
 bio = MyBio()
