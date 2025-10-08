@@ -6,7 +6,7 @@ class MyBio:
         self.role = ["Data Creative", "Empiricist", "Curiosity-driven"]
         self.location = ["Seattle"]
         self.languages = ["Python", "C", "SQL", "R", "Java"]
-        self.interests = ["ML", "Math", "Open Source", "Blogging"]
+        self.interests = ["ML", "Math", "Open Source", "Blogging", "Linux"]
 
     def current_project(self):
         return "Working on a book recommendation system for a community-based book exchange"
