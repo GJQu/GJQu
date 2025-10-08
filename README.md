@@ -5,8 +5,8 @@ class MyBio:
         self.name = "Gavin Qu"
         self.role = ["Data Creative", "Empiricist", "Curiosity-driven"]
         self.location = ["Seattle"]
-        self.languages = ["Python", "C", "SQL", "R"]
-        self.interests = ["AI/ML", "Causal Inference", "Open Source"]
+        self.languages = ["Python", "C", "SQL", "R", "Java"]
+        self.interests = ["ML", "Math", "Open Source", "Blogging"]
 
     def current_project(self):
         return "Working on a book recommendation system for a community-based book exchange"
