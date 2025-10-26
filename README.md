@@ -3,7 +3,7 @@
 class MyBio:
     def __init__(self):
         self.name = "Gavin Qu"
-        self.role = ["Data Creative", "Empiricist", "Curiosity-driven"]
+        self.role = ["Data Creative", "Student", "Curiosity-driven"]
         self.location = ["Seattle"]
         self.languages = ["Python", "C", "SQL", "R", "Java"]
         self.interests = ["ML", "Math", "Open Source", "Blogging", "Linux"]
