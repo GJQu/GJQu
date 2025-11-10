@@ -6,10 +6,10 @@ class MyBio:
         self.role = ["Data Creative", "Student", "Curiosity-driven"]
         self.location = ["Seattle"]
         self.languages = ["Python", "C", "JavaScript", "R", "Java"]
-        self.interests = ["ML", "Math", "Open Source", "Blogging", "Linux"]
+        self.interests = ["ML", "Math", "Open Source", "Blogging", "Linux", "Labor Econoimcs"]
 
     def current_project(self):
-        return "Working on a book recommendation system for a community-based book exchange"
+        return "Working on a deep learning project for mushroom ID using scraped Reddit data"
 
     def contact(self):
         return {
