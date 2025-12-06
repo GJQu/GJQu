@@ -18,7 +18,7 @@ class MyBio:
 
     def about_me(self):
         return """
-            Outside of work, you'll often find me hiking, climbing, skiing and reading Sci-fi in some 3rd wave cafe. 
+            Outside of work, you'll often find me hiking, climbing, skiing and reading Sci-fi. 
         """
 
 bio = MyBio()
