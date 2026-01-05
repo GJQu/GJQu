@@ -3,13 +3,13 @@
 class MyBio:
     def __init__(self):
         self.name = "Gavin Qu"
-        self.role = ["Data Creative", "Student", "Curiosity-driven"]
+        self.role = ["Data Science", "Economics", "Curiosity-driven"]
         self.location = ["Seattle"]
-        self.languages = ["Python", "C", "JavaScript", "R", "Java"]
-        self.interests = ["ML", "Math", "Open Source", "Blogging", "Linux", "Labor Econoimcs"]
+        self.languages = ["Python", "C", "SQL", "R", "Java"]
+        self.interests = ["ML for Economics", "Causal Inference", "Open Source", "Blogging", "Linux"]
 
     def current_project(self):
-        return "Working on a deep learning project for mushroom ID using scraped Reddit data"
+        return "TBD"
 
     def contact(self):
         return {
@@ -18,7 +18,7 @@ class MyBio:
 
     def about_me(self):
         return """
-            Outside of work, you'll often find me hiking, climbing, skiing and reading Sci-fi. 
+            Outside of work, you'll often find me hiking, climbing, skiing, and reading Sci-fi. 
         """
 
 bio = MyBio()
