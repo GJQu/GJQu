@@ -1,3 +1,4 @@
+```
 class MyBio:
     def __init__(self):
         self.name = "Gavin Qu"
@@ -23,3 +24,4 @@ bio = MyBio()
 print(bio.about_me())
 print("Current Project:", bio.current_project())
 print("Contact Info:", bio.contact())
+```
