@@ -4,7 +4,7 @@ class MyBio:
         self.name = "Gavin Qu"
         self.role = ["Economics Research", "Analyst", "Curiosity-driven"]
         self.location = ["Seattle"]
-        self.languages = ["Python", "R", "Julia, "Java", "Bash", "SQL"]
+        self.languages = ["Python", "R", "Java", "Bash", "SQL"]
         self.interests = ["ML for Economics", "Causal Inference", "Open Source", "Blogging", "Linux"]
 
     def current_project(self):
