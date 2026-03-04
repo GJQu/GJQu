@@ -13,7 +13,7 @@ class MyBio:
     def contact(self):
         return {
             "LinkedIn": "linkedin.com/in/gavinqu/"
-            "email": "gavinqu dot dev at google"
+            "email": "gavinqu dot dev at gmail"
         }
 
     def about_me(self):
